@@ -1,0 +1,7 @@
+(library
+ (name low_level_debug)
+ (public_name low_level_debug)
+ (foreign_stubs
+  (language c)
+  (names low_level_debug_stubs))
+ (libraries fmt threads.posix))
